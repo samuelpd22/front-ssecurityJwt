@@ -9,3 +9,8 @@
 	<app-auth-content *ngIf="componentToShow == 'messages'"/>
 
 </div>
+
+
+<div *ngIf="errorMessage" class="alert alert-danger">
+  {{ errorMessage }}
+</div>
